@@ -1,7 +1,9 @@
 package com.spring.webservice.service;
 
-import com.spring.webservice.model.CustomerDetails;
+import org.springframework.stereotype.Service;
 
+import com.spring.webservice.model.CustomerDetails;
+@Service
 public class CustomerService {
 	public CustomerDetails getCustomerDetails()
 	{
